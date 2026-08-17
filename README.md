@@ -1,44 +1,62 @@
-# Msec.urity-Tools
-# ⚡ MSEC TOOLKIT v2.0 (NEON CORE)
+<div align="center">
 
-![MSEC Banner](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-blue)
-![Python Version](https://img.shields.io/badge/Python-3.x-green)
-![License](https://img.shields.io/badge/License-MIT-red)
+# ╔══════════════════════════════════════════════════════════════╗
+# ║                    MSEC TOOLKIT v2.0                        ║
+# ║            Cybersecurity Tools Collection Suite             ║
+# ╚══════════════════════════════════════════════════════════════╝
 
-**MSEC TOOLKIT** هي أداة متكاملة تجمع مجموعة من أشهر أدوات اختبار الاختراق والجمع الاستخباراتي (OSINT) في واجهة تفاعلية بسيطة ومصممة خصيصاً لـ Termux و Linux.
+![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-brightgreen?style=for-the-badge&logo=gnu-bash)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Developer](https://img.shields.io/badge/Developer-Eng.Malek_Alastal-cyan?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
 
----
-
-### 🛠️ الأدوات المدمجة
-* **Zphisher**: إطار عمل لمحاكاة الهجمات واختبار الوعي.
-* **Storm Breaker**: أداة جمع معلومات الأجهزة.
-* **Sherlock**: أداة البحث عن أسماء المستخدمين عبر منصات التواصل.
-* **Seeker**: أداة تحديد المواقع الجغرافية بدقة.
+</div>
 
 ---
 
-### 📥 طريقة التثبيت والتشغيل
+## 📸 Tool Preview
 
-فتح مبوبة **Termux** أو **Linux Terminal** وتنفيذ الأوامر التالية:
+<div align="center">
+
+<!-- استبدل رابط الصورة أدناه برابط الصورة الخاصة بالأداة -->
+<img src="https://raw.githubusercontent.com/msecurity404/Msec.urity-Tools/main/screenshot.png" alt="MSEC Toolkit Preview" width="700"/>
+
+</div>
+
+---
+
+## 🚀 About MSEC Toolkit
+
+**MSEC TOOLKIT (NEON CORE)** هي منصة أدوات أمنية وتوعوية متكاملة مصممة خصيصاً للعمل على بيئات **Termux** و **Linux**. تجمع الأداة أشهر مكتبات جمع المعلومات (OSINT) واختبار الاختراق في واجهة تفاعلية خفيفة وسريعة التثبيت.
+
+---
+
+## 🛠️ Included Security Modules
+
+* ◈ **Zphisher**: إطار عمل لمحاكاة هجمات الهندسة الاجتماعية واختبار الوعي الأمني.
+* ⚡ **Storm Breaker**: أداة جمع معلومات الأجهزة وإدارتها.
+* ⌕ **Sherlock**: أداة البحث والاستخبارات عن الحسابات وأسماء المستخدمين عبر مختلف المنصات.
+* ⌖ **Seeker**: إطار عمل متقدم لأبحاث تحديد المواقع والجغرافيا.
+
+---
+
+## 📥 Installation & Setup
+
+للتثبيت والتشغيل عبر **Termux** أو **Linux Terminal**، نفذ الأوامر التالية بالترتيب:
 
 ```bash
-# تحديث الحزم وتثبيت git و python
+# 1. تحديث حزم النظام وتثبيت المتطلبات الأساسية
 pkg update && pkg upgrade -y
 pkg install git python -y
 
-# استنساخ المستودع
-git clone [https://github.com/USERNAME/REPOSITORY_NAME.git](https://github.com/USERNAME/REPOSITORY_NAME.git)
+# 2. استنساخ المستودع
+git clone [https://github.com/msecurity404/Msec.urity-Tools.git](https://github.com/msecurity404/Msec.urity-Tools.git)
 
-# الدخول لمجلد المشروع
-cd REPOSITORY_NAME
+# 3. الدخول إلى مجلد الأداة
+cd Msec.urity-Tools
 
-# تثبيت المتطلبات
+# 4. تثبيت المكتبات البرمجية المطلوبة
 pip install -r requirements.txt
 
-# تشغيل الأداة
+# 5. تشغيل الأداة
 python msec.py
-
-👤 المطور
-​Developer: Eng.Malek Alastal
-​Framework: MSEC Security Framework
-
