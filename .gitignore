@@ -1,0 +1,9 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Cloned tools (prevent re-uploading nested git repos)
+zphisher/
+Storm-Breaker/
+sherlock/
+seeker/
