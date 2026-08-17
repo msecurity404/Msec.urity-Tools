@@ -60,3 +60,9 @@ pip install -r requirements.txt
 
 # 5. تشغيل الأداة
 python msec.py
+```
+👨‍💻 Developer & Credits
+​Developer: Eng.Malek Alastal
+​Platform: MSEC Security Framework
+​Organization: msecurity404
+​⚠️ Disclaimer: This tool is developed for educational and security awareness purposes only. The developer is not responsible for any misuse or unlawful activity.
