@@ -50,8 +50,7 @@ pkg update && pkg upgrade -y
 pkg install git python -y
 
 # 2. استنساخ المستودع
-git clone [https://github.com/msecurity404/Msec.urity-Tools.git](https://github.com/msecurity404/Msec.urity-Tools.git)
-
+git clone https://github.com/msecurity404/Msec.urity-Tools.git
 # 3. الدخول إلى مجلد الأداة
 cd Msec.urity-Tools
 
